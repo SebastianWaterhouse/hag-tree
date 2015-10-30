@@ -23,29 +23,6 @@ class mood_happy(moods):
     mood_name='Happy'
     mood_color='0a'
 
-class events(object):
-    event_statement=''
-    needs_tree=0
-    outcome_1=''
-    outcome_1_effect=''
-    outcome_2=''
-    outcome_2_effect=''
-class lawn1(events):
-    event_statement="Some lousy kids are trashing your lawn! What'll you do to these cretins?! Say 1 if you will crush them, or say 2 if you will simply yell."
-    needs_tree=0
-    outcome_1='I WILL CRUSH YOU!'
-    outcome_1_effect="mood_level=mood_level-15"
-    outcome_2='HEY YOU LOUSY KIDS GET OFF MY LAWN!'
-    outcome_2_effect="mood_level=mood_level-5"
-class flowers1(events):
-    event_statement="Some kids are giving you flowers! Isn't that sweet? Say 1 if you thank the kids, or say 2 if you tell them to scamper."
-    needs_tree=0
-    outcome_1="Thank you, kind children!"
-    outcome_1_effect="mood_level=mood_level+10"
-    outcome_2="Go away!"
-    outcome_2_effect="mood_level=mood_level-5"
-
-
 events = ['lawn1', 'flowers1']
 success=0
 
