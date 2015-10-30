@@ -4,25 +4,6 @@ import time, sys, random
 mood_level=0
 is_tree=0
 
-class moods(object):
-    mood_level_req=0
-    mood_name=''
-    mood_color=''
-
-class mood_fine(moods):
-    mood_level_req=0
-    mood_name='Fine'
-    mood_color='07'
-
-class mood_angry(moods):
-    mood_level_req=-10
-    mood_name='Angry'
-    mood_color='0c'
-class mood_happy(moods):
-    mood_level_req=10
-    mood_name='Happy'
-    mood_color='0a'
-
 events = ['lawn1', 'flowers1']
 success=0
 
