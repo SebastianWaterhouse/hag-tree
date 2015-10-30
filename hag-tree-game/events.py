@@ -1,5 +1,5 @@
 class events(object):
-  init(evst, tree_req, outcomes)
+  init(evst, tree_req, outcomes):
     self.event_statement=evst
     self.needs_tree=tree_req
     self.outcomes=outcomes
